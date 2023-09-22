@@ -1,0 +1,45 @@
+
+.alert {
+    margin: auto;
+    width: 55%;
+    padding: 4rem;
+    text-align: center;
+    background: white;
+    color: black;
+    border-radius: 0.5rem;
+    border-color: 1px solid black;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 1px;
+    box-shadow: 1px 1 px 1px 2px royalblue;
+  }
+  
+  h2 {
+    text-align: center;
+    position: relative;
+    margin-top: -60px;
+  }
+  
+  p {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: 600;
+  }
+  p:hover{
+    opacity: .7 ;
+    color: red;
+    
+  }
+  /* Media Query for Smaller Screens */
+  @media screen and (max-width: 768px) {
+    .alert {
+      width: 85%;
+      padding: 2rem;
+    }
+  
+    h2 {
+      margin-top: -30px;
+    }
+  }
+  
